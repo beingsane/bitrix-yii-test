@@ -1,0 +1,232 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+a:focus, .btn:focus, .btn:active, .btn:active:focus { outline: none }
+
+.breadcrumb {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.panel {
+    margin-bottom: 30px;
+}
+
+.panel-default .panel-heading .reset-filter {
+    color: #777;
+}
+
+textarea {
+    min-height: 140px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.m-t-empty {
+    margin-top: 0px;
+}
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+.m-t-sm {
+    margin-top: 10px;
+}
+
+.m-t-md {
+    margin-top: 20px;
+}
+
+.m-t-lg {
+    margin-top: 30px;
+}
+
+.m-t-xl {
+    margin-top: 40px;
+}
+
+
+.m-b-empty {
+    margin-bottom: 0px;
+}
+
+.m-b-xs {
+    margin-bottom: 5px;
+}
+
+.m-b-sm {
+    margin-bottom: 10px;
+}
+
+.m-b-md {
+    margin-bottom: 20px;
+}
+
+.m-b-lg {
+    margin-bottom: 30px;
+}
+
+.m-b-xl {
+    margin-bottom: 40px;
+}
+
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+
+.space {
+    height: 10px;
+}
+
+.space-2x {
+    height: 20px;
+}
+
+.space-3x {
+    height: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+.page-title h2 {
+    margin: 0;
+}
+
+.input-group.date.kv-date-remove,
+.input-group.date .kv-date-calendar {
+    color: #626262;
+}
+
+.input-group.date .kv-date-remove-custom {
+    position: absolute;
+    z-index: 3;
+    color: #000;
+    opacity: 0.4;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.6;
+    right: 50px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.input-group.date .kv-date-remove-custom:hover {
+    opacity: 0.6;
+}
+
+.input-group.date input {
+    padding-right: 30px;
+}
+
+.input-group.date .input-group-addon.kv-date-calendar + .kv-date-remove-custom {
+    left: 50px;
+    right: auto;
+}
+
+.input-group.date .input-group-addon.kv-date-calendar + .kv-date-remove-custom + input {
+    padding-left: 32px;
+}
+
+/* -------------------------------------------------------------------------- */
